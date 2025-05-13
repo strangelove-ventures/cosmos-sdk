@@ -8,7 +8,7 @@ const StoreCodespace = "store"
 
 var (
 	// ErrInvalidProof is returned when a proof is invalid
-	ErrInvalidProof = errors.Register(StoreCodespace, 2, "invalid proof")
+	ErrInvalidProof = errors.Register(StoreCodespace, 2, "invalid store proof")
 	// ErrTxDecode is returned if we cannot parse a transaction
 	ErrTxDecode = errors.Register(StoreCodespace, 3, "tx parse error")
 
